@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def BW(a, b, c, d):
     if a in range(1, 9) and b in range(1, 9) and c in range(1, 9) and d in range(1, 9):
         if (a+b+c+d) % 2 == 0:

@@ -15,4 +15,3 @@ def f7():
     else:
         print('n < 0')
 f7()
-f7()

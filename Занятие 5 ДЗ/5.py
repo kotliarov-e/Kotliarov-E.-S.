@@ -13,4 +13,3 @@ def f5():
     else:
         print('n < 0')
 f5()
-f5()

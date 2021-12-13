@@ -7,6 +7,5 @@ def f6():
         s += n
         k += 1
         n = int(input('n: '))
-    else:
-        print(s / k)
+    print(s / k)
 f6()

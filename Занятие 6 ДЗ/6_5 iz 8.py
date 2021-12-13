@@ -46,6 +46,8 @@ def f5():
     k = len(a)
     lbl5.configure(text=k)
 
+### ПРИ ВВОДЕ В ЦИКЛЕ - НЕ РАБОТЕТ
+   
 def f6():
     k = 0
     s = 0

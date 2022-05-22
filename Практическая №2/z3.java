@@ -1,4 +1,6 @@
-package prakt2;
+// Определить матрицу (двумерный массив) и ее заполнить случайными значениями.
+// Построить вектор B, который возвращает среднее геометрическое положительных 
+// элементов в каждом столбце матрицы
 
 public class z3 {
   public static void main(String n[]) {
@@ -7,7 +9,7 @@ public class z3 {
     for (int i = 0; i < array.length; i++) {
       for (int j = 0; j < array.length; j++) {
         array[i][j] = (double)(Math.round(Math.random()*20 - 10));
-        System.out.print(Math.round(array[i][j]) + " | ");
+        System.out.print(Math.round(array[i][j]) + "  ");
       }
       System.out.println();
     }
